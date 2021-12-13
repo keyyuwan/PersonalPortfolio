@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 4rem);
 
   display: flex;
   align-items: center;
@@ -65,7 +65,7 @@ export const OverviewInfo = styled.div`
       }
 
       .title {
-        color: #00bcd4;
+        color: ${({ theme }) => theme.colors.cyan};
         display: inline-block;
         margin-bottom: 1rem;
       }
