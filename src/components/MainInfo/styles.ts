@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100vw;
   height: calc(100vh - 4rem);
 
   display: flex;
@@ -13,18 +12,11 @@ export const Content = styled.div`
   max-width: 800px;
   margin: 0 auto;
   padding: 0 2rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
 `
 
 export const MyInfo = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1.5rem;
 
   img {
@@ -47,7 +39,7 @@ export const MyInfo = styled.div`
 `
 
 export const OverviewInfo = styled.div`
-  margin-left: 1.5rem;
+  margin-top: 1rem;
 
   h1 {
     font-size: 1.5rem;
@@ -56,18 +48,18 @@ export const OverviewInfo = styled.div`
   .techs {
     margin-top: 1rem;
 
+    .title {
+      color: ${({ theme }) => theme.colors.cyan};
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
     .techs-list {
       margin-top: 1rem;
 
       strong {
         display: inline-block;
         line-height: 1.25rem;
-      }
-
-      .title {
-        color: ${({ theme }) => theme.colors.cyan};
-        display: inline-block;
-        margin-bottom: 1rem;
       }
 
       .tech {
@@ -80,6 +72,16 @@ export const OverviewInfo = styled.div`
           width: 32px;
           border-radius: 8px;
         }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .techs {
+      .techs-list {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
       }
     }
   }

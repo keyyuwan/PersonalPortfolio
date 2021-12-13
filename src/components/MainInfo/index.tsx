@@ -1,3 +1,4 @@
+import { techs } from '../../utils/techs'
 import { Container, Content, MyInfo, OverviewInfo } from './styles'
 
 export function MainInfo() {
@@ -23,34 +24,20 @@ export function MainInfo() {
           <div className="techs">
             <p>
               Focused on the best front-end technologies to build good
-              performant and well designed web applications.
+              performant and well designed applications.
             </p>
-            <div className="techs-list">
-              <strong className="title">
-                Technologies I have experience with:
-              </strong>
 
-              <div className="tech">
-                <img
-                  src="https://cdn.worldvectorlogo.com/logos/react-1.svg"
-                  alt="ReactJS logo"
-                />
-                <strong>ReactJS</strong>
-              </div>
-              <div className="tech">
-                <img
-                  src="https://cdn.worldvectorlogo.com/logos/next-js.svg"
-                  alt="Next.js logo"
-                />
-                <strong>Next.js</strong>
-              </div>
-              <div className="tech">
-                <img
-                  src="https://cdn.worldvectorlogo.com/logos/typescript-2.svg"
-                  alt="Typescript logo"
-                />
-                <strong>Typescript</strong>
-              </div>
+            <strong className="title">
+              Technologies I have experience with:
+            </strong>
+
+            <div className="techs-list">
+              {techs.map((tech) => (
+                <div key={tech.id} className="tech">
+                  <img src={tech.img_url} alt={tech.name} />
+                  <strong>{tech.name}</strong>
+                </div>
+              ))}
             </div>
           </div>
         </OverviewInfo>
