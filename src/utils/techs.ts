@@ -1,4 +1,10 @@
-export const techs = [
+interface TechsData {
+  id: number
+  name: string
+  img_url: string
+}
+
+export const techs: TechsData[] = [
   {
     id: 1,
     name: 'ReactJS',
