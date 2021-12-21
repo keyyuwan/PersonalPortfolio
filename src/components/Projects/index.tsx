@@ -5,7 +5,7 @@ import { Container, Content } from './styles'
 export function Projects() {
   return (
     <Container>
-      <h1>Projects</h1>
+      <h1>Projetos</h1>
 
       <Content>
         {projects.map((project) => (

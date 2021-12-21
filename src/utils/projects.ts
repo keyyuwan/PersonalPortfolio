@@ -13,7 +13,7 @@ export const projects: ProjectsData[] = [
     name: 'Podcastr',
     img: '/podcastr_gif.gif',
     description:
-      'In this application we can listen to podcasts and read the description about them.',
+      'Aplicação em que conseguimos ouvir podcasts e fazer uma leitura prévia sobre cada episódio.',
     techs: ['ReactJS', 'Next.js', 'SASS', 'TypeScript'],
     githubRepo: 'https://github.com/keyyuwan/Podcastr',
   },
@@ -21,7 +21,8 @@ export const projects: ProjectsData[] = [
     id: 2,
     name: 'Manage Your Money',
     img: '/dtmoney.png',
-    description: 'Manage Your Money is a finance control project.',
+    description:
+      'Manage Your Money é um projeto de controle/organização financeira.',
     techs: ['ReactJS', 'Styled-Components', 'SASS', 'TypeScript', 'MirageJS'],
     githubRepo: 'https://github.com/keyyuwan/manageyourmoney',
   },
@@ -29,8 +30,7 @@ export const projects: ProjectsData[] = [
     id: 3,
     name: 'Pomodoro Timer',
     img: '/pomodoroTimer.gif',
-    description:
-      'This project is a Pomodoro timer with browser notification and theme switcher.',
+    description: 'Timer pomodoro com notificação de browser e theme switcher.',
     techs: ['ReactJS', 'CSS Modules'],
     githubRepo: 'https://github.com/keyyuwan/PomodoroTimer',
   },
@@ -39,7 +39,7 @@ export const projects: ProjectsData[] = [
     name: 'Twitter UI Clone',
     img: '/tt-clone-gif.gif',
     description:
-      'Twitter profile screen cloned with ReactJS and Styled Components.',
+      'Tela do perfil do Twitter feito com ReactJS e Styled Components.',
     techs: ['ReactJS', 'Styled Components'],
     githubRepo: 'https://github.com/keyyuwan/ReactJS-Twitter-Clone',
   },
@@ -48,7 +48,7 @@ export const projects: ProjectsData[] = [
     name: 'Let me ask',
     img: '/letmeask.png',
     description:
-      'Create rooms to view and answer questions. You can enter in one to ask questions too.',
+      'Crie salas para visualizar e responder perguntas. Você pode entrar em uma para fazer perguntas também.',
     techs: [
       'ReactJS',
       'TypeScript',
@@ -61,7 +61,8 @@ export const projects: ProjectsData[] = [
     id: 6,
     name: 'WheaterApp',
     img: '/weather.gif',
-    description: 'Search for any city weather. Used the openweathermap API.',
+    description:
+      'Procure sobre o tempo de qualquer cidade. Feito com a API do openweathermap.',
     techs: ['ReactJS'],
     githubRepo: 'https://github.com/keyyuwan/WeatherApp',
   },

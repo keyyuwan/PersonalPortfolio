@@ -13,24 +13,24 @@ export function MainInfo() {
           />
           <div className="info">
             <span>
-              <strong>Key</strong>, 18
+              <strong>Key Yu Wan</strong>, 18
             </span>
             <p>📍 Curitiba, Brasil</p>
             <p>Front-end</p>
           </div>
         </MyInfo>
         <OverviewInfo>
-          <h1>Hey, I'm Key, Web Dev 👋</h1>
+          <h1>Oi! Meu nome é Key e sou desenvolvedor 👋</h1>
           <div className="techs">
             <p>
-              A lot of we are experiencing today, it's because of technology, it
-              improved and made easier the ways we do things. For me, developing
-              is a way of finding solutions and solving society's problems
-              through the same way.
+              {`<Muito do que vivemos hoje é por causa da tecnologia, ela melhorou
+              a facilitou as formas como fazemos as coisas. Pra mim, desenvolver
+              é uma forma de achar soluções e resolver problemas da sociedade
+              através da mesma via. />`}
             </p>
 
             <strong className="title">
-              Technologies I have experience with:
+              Tecnologias que tenho experiência:
             </strong>
 
             <div className="techs-list">
@@ -45,7 +45,7 @@ export function MainInfo() {
         </OverviewInfo>
 
         <div className="continuation">
-          <p>👇 Projects...</p>
+          <p>👇 Projetos...</p>
         </div>
       </Content>
     </Container>
