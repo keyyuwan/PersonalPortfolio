@@ -20,11 +20,13 @@ export function MainInfo() {
           </div>
         </MyInfo>
         <OverviewInfo>
-          <h1>Hey, I'm Key Yu Wan, Web Dev 👋</h1>
+          <h1>Hey, I'm Key, Web Dev 👋</h1>
           <div className="techs">
             <p>
-              Focused on the best front-end technologies to build good
-              performant and well designed applications.
+              A lot of we are experiencing today, it's because of technology, it
+              improved and made easier the ways we do things. For me, developing
+              is a way of finding solutions and solving society's problems
+              through the same way.
             </p>
 
             <strong className="title">
@@ -41,6 +43,10 @@ export function MainInfo() {
             </div>
           </div>
         </OverviewInfo>
+
+        <div className="continuation">
+          <p>👇 Projects...</p>
+        </div>
       </Content>
     </Container>
   )

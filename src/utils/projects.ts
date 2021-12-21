@@ -34,4 +34,35 @@ export const projects: ProjectsData[] = [
     techs: ['ReactJS', 'CSS Modules'],
     githubRepo: 'https://github.com/keyyuwan/PomodoroTimer',
   },
+  {
+    id: 4,
+    name: 'Twitter UI Clone',
+    img: '/tt-clone-gif.gif',
+    description:
+      'Twitter profile screen cloned with ReactJS and Styled Components.',
+    techs: ['ReactJS', 'Styled Components'],
+    githubRepo: 'https://github.com/keyyuwan/ReactJS-Twitter-Clone',
+  },
+  {
+    id: 5,
+    name: 'Let me ask',
+    img: '/letmeask.png',
+    description:
+      'Create rooms to view and answer questions. You can enter in one to ask questions too.',
+    techs: [
+      'ReactJS',
+      'TypeScript',
+      'SCSS (SASS)',
+      'Firebase (Realtime Database)',
+    ],
+    githubRepo: 'https://github.com/keyyuwan/Letmeask',
+  },
+  {
+    id: 6,
+    name: 'WheaterApp',
+    img: '/weather.gif',
+    description: 'Search for any city weather. Used the openweathermap API.',
+    techs: ['ReactJS'],
+    githubRepo: 'https://github.com/keyyuwan/WeatherApp',
+  },
 ]

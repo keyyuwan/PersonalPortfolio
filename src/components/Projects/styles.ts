@@ -59,7 +59,7 @@ export const Content = styled.div`
 
       .card {
         width: 500px;
-        height: 450px;
+        height: 480px;
 
         img {
           width: 500px;

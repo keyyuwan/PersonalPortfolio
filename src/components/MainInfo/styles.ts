@@ -12,6 +12,14 @@ export const Content = styled.div`
   max-width: 800px;
   margin: 0 auto;
   padding: 0 2rem;
+
+  .continuation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+  }
 `
 
 export const MyInfo = styled.div`
@@ -42,7 +50,7 @@ export const OverviewInfo = styled.div`
   margin-top: 1rem;
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .techs {
