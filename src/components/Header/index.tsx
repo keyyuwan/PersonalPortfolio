@@ -5,9 +5,9 @@ export function Header() {
   return (
     <Container>
       <nav>
-        <Link href="/">Projects</Link>
+        <Link href="/">Projetos</Link>
         <Link href="/experience">Dev Experience</Link>
-        <Link href="#">Contact</Link>
+        <Link href="/contact">Contato</Link>
       </nav>
     </Container>
   )
