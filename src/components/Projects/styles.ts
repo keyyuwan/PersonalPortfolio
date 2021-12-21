@@ -4,6 +4,7 @@ export const Container = styled.div`
   max-width: 1120px;
   margin: auto;
   padding: 0 2rem;
+  padding-bottom: 2rem;
 
   h1 {
     color: ${({ theme }) => theme.colors.cyan};
