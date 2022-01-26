@@ -66,4 +66,13 @@ export const projects: ProjectsData[] = [
     techs: ['ReactJS'],
     githubRepo: 'https://github.com/keyyuwan/WeatherApp',
   },
+  {
+    id: 7,
+    name: 'Compliment',
+    img: '/compliment.png',
+    description:
+      'Já elogiou alguém hoje? Elogie usuários e veja elogios que você recebeu.',
+    techs: ['ReactJS', 'TypeScript', 'Next.js', 'ChakraUI'],
+    githubRepo: 'https://github.com/keyyuwan/Compliment-ReactJS',
+  },
 ]
