@@ -18,7 +18,15 @@ export default function DevExperience() {
         <div className="my-experience">
           <h2>Minha experiência</h2>
           Sou desenvolvedor Front-End da Dorper em que trabalhamos na stack de
-          ReactJS e Typescript. Para mobile, utilizamos React Native.
+          ReactJS e Typescript. <br /> <br />
+          <ul>
+            <li>Trabalho em cima da metodologia ágil SCRUM;</li>
+            <li>Versiono o código utilizando Git e Github;</li>
+            <li>Trabalho em equipe com os desenvolvedores;</li>
+            <li>Lido com bibliotecas externas que a aplicação necessite;</li>
+            <li>Estilizo a aplicação usando CSS-in-JS (Styled Components);</li>
+            <li>Consumo uma API REST feita em Node.js;</li>
+          </ul>
         </div>
         <div className="dorper-info">
           <h2>Sobre</h2>

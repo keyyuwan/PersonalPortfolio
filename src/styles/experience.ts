@@ -35,6 +35,10 @@ export const Content = styled.div`
 
   .my-experience {
     margin-top: 1.5rem;
+
+    ul {
+      padding-left: 1rem;
+    }
   }
 
   .dorper-info {

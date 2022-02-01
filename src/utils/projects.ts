@@ -23,7 +23,7 @@ export const projects: ProjectsData[] = [
     img: '/dtmoney.png',
     description:
       'Manage Your Money é um projeto de controle/organização financeira.',
-    techs: ['ReactJS', 'Styled-Components', 'SASS', 'TypeScript', 'MirageJS'],
+    techs: ['ReactJS', 'Styled-Components', 'TypeScript', 'MirageJS'],
     githubRepo: 'https://github.com/keyyuwan/manageyourmoney',
   },
   {
