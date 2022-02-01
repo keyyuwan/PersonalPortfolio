@@ -13,7 +13,7 @@ export function MainInfo() {
           />
           <div className="info">
             <span>
-              <strong>Key Yu Wan</strong>, 18
+              <strong>Key Yu Wan</strong>, 19
             </span>
             <p>📍 Curitiba, Brasil</p>
             <p>Front-end</p>
@@ -24,7 +24,7 @@ export function MainInfo() {
           <div className="techs">
             <p>
               {`<Muito do que vivemos hoje é por causa da tecnologia, ela melhorou
-              a facilitou as formas como fazemos as coisas. Pra mim, desenvolver
+              e facilitou as formas como fazemos as coisas. Pra mim, desenvolver
               é uma forma de achar soluções e resolver problemas da sociedade
               através da mesma via. />`}
             </p>
