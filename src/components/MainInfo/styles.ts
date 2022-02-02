@@ -9,8 +9,9 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
+  height: 100%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 4rem auto 0;
   padding: 0 2rem;
 
   .continuation {
@@ -18,7 +19,7 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
 
-    margin-top: 2rem;
+    margin: 2rem 0 4rem;
   }
 `
 
