@@ -13,7 +13,7 @@ export default function Contact() {
         </Link>
         <Link href="https://www.linkedin.com/in/key-yu-wan" passHref>
           <a target="_blank">
-            <FaLinkedin /> Linkedin
+            <FaLinkedin /> LinkedIn
           </a>
         </Link>
         <Link href="https://www.instagram.com/keyyuwan/" passHref>
@@ -21,9 +21,7 @@ export default function Contact() {
             <FaInstagram /> Instagram
           </a>
         </Link>
-        <div>
-          <FaGoogle /> Gmail: keyflcbyuwan@gmail.com
-        </div>
+        <div>E-mail: keyflcbyuwan@gmail.com</div>
       </div>
     </Container>
   )

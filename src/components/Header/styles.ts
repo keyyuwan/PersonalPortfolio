@@ -13,6 +13,7 @@ export const Container = styled.div`
     gap: 2rem;
 
     a {
+      font-weight: bold;
       text-decoration: none;
       color: ${({ theme }) => theme.colors.cyan};
 
