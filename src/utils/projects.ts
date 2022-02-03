@@ -28,14 +28,6 @@ export const projects: ProjectsData[] = [
   },
   {
     id: 3,
-    name: 'Pomodoro Timer',
-    img: '/pomodoroTimer.gif',
-    description: 'Timer pomodoro com notificação de browser e theme switcher.',
-    techs: ['ReactJS', 'CSS Modules'],
-    githubRepo: 'https://github.com/keyyuwan/PomodoroTimer',
-  },
-  {
-    id: 4,
     name: 'Twitter UI Clone',
     img: '/tt-clone-gif.gif',
     description:
@@ -44,7 +36,7 @@ export const projects: ProjectsData[] = [
     githubRepo: 'https://github.com/keyyuwan/ReactJS-Twitter-Clone',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Let me ask',
     img: '/letmeask.png',
     description:
@@ -58,21 +50,27 @@ export const projects: ProjectsData[] = [
     githubRepo: 'https://github.com/keyyuwan/Letmeask',
   },
   {
-    id: 6,
-    name: 'WheaterApp',
-    img: '/weather.gif',
-    description:
-      'Procure sobre o tempo de qualquer cidade. Feito com a API do openweathermap.',
-    techs: ['ReactJS'],
-    githubRepo: 'https://github.com/keyyuwan/WeatherApp',
-  },
-  {
-    id: 7,
+    id: 5,
     name: 'Compliment',
     img: '/compliment.png',
     description:
       'Já elogiou alguém hoje? Elogie usuários e veja elogios que você recebeu.',
     techs: ['ReactJS', 'TypeScript', 'Next.js', 'ChakraUI'],
     githubRepo: 'https://github.com/keyyuwan/Compliment-ReactJS',
+  },
+  {
+    id: 6,
+    name: 'AuthNext',
+    img: '/authnext.jpg',
+    description: 'Projeto de autenticação e autorização.',
+    techs: [
+      'ReactJS',
+      'TypeScript',
+      'Next.js',
+      'SCSS (SASS)',
+      'Axios',
+      'ApexCharts',
+    ],
+    githubRepo: 'https://github.com/keyyuwan/AuthNext',
   },
 ]
