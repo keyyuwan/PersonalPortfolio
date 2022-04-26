@@ -1,10 +1,4 @@
-import {
-  Container,
-  Content,
-  Header,
-  MyExperience,
-  DorperInfo,
-} from '../styles/experience'
+import { Container, Content, Header, MyExperience, DorperInfo } from './styles'
 
 export default function DevExperience() {
   return (

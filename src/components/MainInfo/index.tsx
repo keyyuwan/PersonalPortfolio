@@ -20,7 +20,7 @@ export function MainInfo() {
           </div>
         </MyInfo>
         <OverviewInfo>
-          <h1>Oi! Meu nome é Key e sou desenvolvedor 👋</h1>
+          <h1>Meu nome é Key e sou desenvolvedor 👋</h1>
           <div className="techs">
             <p>
               {`<Muito do que vivemos hoje é por causa da tecnologia, ela melhorou

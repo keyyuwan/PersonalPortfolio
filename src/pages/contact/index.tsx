@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FaLinkedin, FaInstagram, FaGithub, FaGoogle } from 'react-icons/fa'
-import { Container } from '../styles/contact'
+import { Container } from './styles'
 
 export default function Contact() {
   return (
