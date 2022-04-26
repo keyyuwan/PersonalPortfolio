@@ -51,12 +51,18 @@ export const projects: ProjectsData[] = [
   },
   {
     id: 5,
-    name: 'Compliment',
-    img: '/compliment.png',
-    description:
-      'Já elogiou alguém hoje? Elogie usuários e veja elogios que você recebeu.',
-    techs: ['ReactJS', 'TypeScript', 'Next.js', 'ChakraUI'],
-    githubRepo: 'https://github.com/keyyuwan/Compliment-ReactJS',
+    name: 'Recp',
+    img: '/recp.png',
+    description: 'Explore receitas do mundo e registre seus próprios pratos.',
+    techs: [
+      'ReactJS',
+      'TypeScript',
+      'Next.js',
+      'Next Auth',
+      'Styled Components',
+      'React Hook Form',
+    ],
+    githubRepo: 'https://github.com/keyyuwan/Recp',
   },
   {
     id: 6,
