@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 4rem;
-  background-color: ${({ theme }) => theme.colors.gray[800]};
   border-radius: 0 0 8px 8px;
 
   nav {

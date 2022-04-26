@@ -8,7 +8,7 @@ export const techs: TechsData[] = [
   {
     id: 1,
     name: 'ReactJS',
-    img_url: 'https://cdn.worldvectorlogo.com/logos/react-1.svg',
+    img_url: 'https://cdn.worldvectorlogo.com/logos/react-2.svg',
   },
   {
     id: 2,
@@ -17,6 +17,11 @@ export const techs: TechsData[] = [
   },
   {
     id: 3,
+    name: 'JavaScript',
+    img_url: 'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
+  },
+  {
+    id: 4,
     name: 'TypeScript',
     img_url: 'https://cdn.worldvectorlogo.com/logos/typescript-2.svg',
   },

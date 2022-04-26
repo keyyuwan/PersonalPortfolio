@@ -1,5 +1,11 @@
 import { techs } from '../../utils/techs'
-import { Container, Content, MyInfo, OverviewInfo } from './styles'
+import {
+  Container,
+  Content,
+  MyInfo,
+  OverviewInfo,
+  StackContainer,
+} from './styles'
 
 export function MainInfo() {
   return (
@@ -16,37 +22,30 @@ export function MainInfo() {
               <strong>Key Yu Wan</strong>, 19
             </span>
             <p>📍 Curitiba, Brasil</p>
-            <p>Front-end</p>
           </div>
         </MyInfo>
         <OverviewInfo>
-          <h1>Meu nome é Key e sou desenvolvedor 👋</h1>
-          <div className="techs">
-            <p>
-              {`<Muito do que vivemos hoje é por causa da tecnologia, ela melhorou
+          <h1>
+            Oi! 👋 <br />
+            Sou um desenvolvedor <span>Front-end</span> apaixonado por
+            tecnologia.
+          </h1>
+          <StackContainer>
+            {techs.map((tech) => (
+              <div key={tech.id} className="tech">
+                <img src={tech.img_url} alt={tech.name} />
+                <strong>{tech.name}</strong>
+              </div>
+            ))}
+          </StackContainer>
+
+          <p className="quote">
+            {`<Muito do que vivemos hoje é por causa da tecnologia, ela melhorou
               e facilitou as formas como fazemos as coisas. Pra mim, desenvolver
               é uma forma de achar soluções e resolver problemas da sociedade
               através da mesma via. />`}
-            </p>
-
-            <strong className="title">
-              Tecnologias que tenho experiência:
-            </strong>
-
-            <div className="techs-list">
-              {techs.map((tech) => (
-                <div key={tech.id} className="tech">
-                  <img src={tech.img_url} alt={tech.name} />
-                  <strong>{tech.name}</strong>
-                </div>
-              ))}
-            </div>
-          </div>
+          </p>
         </OverviewInfo>
-
-        <div className="continuation">
-          <p>👇 Projetos...</p>
-        </div>
       </Content>
     </Container>
   )

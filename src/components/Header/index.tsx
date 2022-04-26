@@ -6,7 +6,7 @@ export function Header() {
     <Container>
       <nav>
         <Link href="/">Home</Link>
-        <Link href="/experience">Dev Experience</Link>
+        <Link href="/experience">Experiência</Link>
         <Link href="/contact">Contato</Link>
       </nav>
     </Container>
