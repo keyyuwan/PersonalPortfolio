@@ -1,31 +1,31 @@
 import Link from 'next/link'
 import { projects } from '../../utils/projects'
-import { Container, Content } from './styles'
+import { Container, ProjectsContainer, ProjectCard } from './styles'
 
 export function Projects() {
   return (
     <Container>
       <h1>Projetos</h1>
 
-      <Content>
+      <ProjectsContainer>
         {projects.map((project) => (
           <Link key={project.id} href={project.githubRepo} passHref>
             <a target="_blank">
-              <div className="card">
+              <ProjectCard>
                 <img src={project.img} alt={project.name} />
 
-                <div className="card-info">
+                <div className="project-info">
                   <h2>{project.name}</h2>
-                  <p>{project.description}</p>
+                  <p className="description">{project.description}</p>
                   <p className="techs-used">
                     {project.techs.map((tech) => `${tech} | `)}
                   </p>
                 </div>
-              </div>
+              </ProjectCard>
             </a>
           </Link>
         ))}
-      </Content>
+      </ProjectsContainer>
     </Container>
   )
 }

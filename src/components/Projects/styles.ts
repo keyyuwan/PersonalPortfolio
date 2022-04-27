@@ -2,71 +2,86 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   max-width: 1120px;
-  margin: 2rem auto 0;
+  margin: 3rem auto 0;
   padding: 0 2rem;
   padding-bottom: 2rem;
 
   h1 {
+    text-align: center;
+    font-size: 2.5rem;
     color: ${({ theme }) => theme.colors.cyan};
+    position: relative;
+
+    &::after {
+      content: '';
+      height: 4px;
+      border-radius: 0 0 3px 3px;
+      width: 80px;
+      position: absolute;
+      bottom: 1px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: ${({ theme }) => theme.colors.cyan};
+    }
   }
 `
 
-export const Content = styled.div`
+export const ProjectsContainer = styled.div`
   margin-top: 2rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
   a {
-    text-decoration: none;
-    color: ${({ theme }) => theme.colors.textPrimary};
     display: inline-block;
+    width: 100%;
+  }
+`
 
-    margin-top: 1.5rem;
+export const ProjectCard = styled.div`
+  background: ${({ theme }) => theme.colors.gray[800]};
+  border-radius: 5px;
 
-    &:first-child {
-      margin-top: 0;
+  transition: 0.2s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .project-info {
+    padding: 1rem;
+
+    p.description {
+      color: ${({ theme }) => theme.colors.gray[500]};
     }
 
-    .card {
-      background: ${({ theme }) => theme.colors.gray[800]};
-      border-radius: 8px;
-
-      img {
-        border-radius: 8px 8px 0 0;
-        width: 100%;
-      }
-
-      .card-info {
-        padding: 0.5rem 1rem;
-
-        p {
-          margin-top: 0.5rem;
-        }
-
-        p.techs-used {
-          color: ${({ theme }) => theme.colors.cyan};
-        }
-      }
+    p.techs-used {
+      margin-top: 0.25rem;
+      color: ${({ theme }) => theme.colors.cyan};
     }
   }
 
   @media (min-width: 768px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    align-items: center;
-    justify-content: center;
+    display: flex;
 
-    a {
-      margin-top: 0;
+    img {
+      width: 350px;
+      border-radius: 5px 0 0 5px;
+    }
 
-      .card {
-        width: 500px;
-        height: 480px;
-
-        img {
-          width: 500px;
-          height: 300px;
-        }
-      }
+    .project-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 `

@@ -40,7 +40,7 @@ export const projects: ProjectsData[] = [
     name: 'Let me ask',
     img: '/letmeask.png',
     description:
-      'Crie salas para visualizar e responder perguntas. Você pode entrar em uma para fazer perguntas também.',
+      'Crie salas para visualizar e responder perguntas em tempo real. Você pode entrar em uma para fazer perguntas também.',
     techs: [
       'ReactJS',
       'TypeScript',
@@ -53,7 +53,8 @@ export const projects: ProjectsData[] = [
     id: 5,
     name: 'Recp',
     img: '/recp.png',
-    description: 'Explore receitas do mundo e registre seus próprios pratos.',
+    description:
+      'Explore receitas do mundo e registre suas próprias. Contém autenticação social com Google.',
     techs: [
       'ReactJS',
       'TypeScript',
@@ -68,7 +69,8 @@ export const projects: ProjectsData[] = [
     id: 6,
     name: 'AuthNext',
     img: '/authnext.jpg',
-    description: 'Projeto de autenticação e autorização.',
+    description:
+      'Projeto de autenticação e autorização com controle de rotas pelo server-side.',
     techs: [
       'ReactJS',
       'TypeScript',
