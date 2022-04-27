@@ -1,13 +1,19 @@
-import Link from 'next/link'
+import { ActiveLink } from './ActiveLink'
 import { Container } from './styles'
 
 export function Header() {
   return (
     <Container>
       <nav>
-        <Link href="/">Home</Link>
-        <Link href="/experience">Experiência</Link>
-        <Link href="/contact">Contato</Link>
+        <ActiveLink activeClassName="active" href="/">
+          <a>Key</a>
+        </ActiveLink>
+        <ActiveLink activeClassName="active" href="/experience">
+          <a>Experiência</a>
+        </ActiveLink>
+        <ActiveLink activeClassName="active" href="/contact">
+          <a>Contato</a>
+        </ActiveLink>
       </nav>
     </Container>
   )

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { MainInfo } from '../components/MainInfo'
+import { AboutMe } from '../components/AboutMe'
 import { Projects } from '../components/Projects'
 import { Container } from '../styles/pages/home'
 
@@ -10,7 +10,7 @@ export default function Home() {
         <title>Key Yu Wan</title>
       </Head>
       <Container>
-        <MainInfo />
+        <AboutMe />
         <Projects />
       </Container>
     </>

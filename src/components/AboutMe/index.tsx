@@ -7,7 +7,7 @@ import {
   StackContainer,
 } from './styles'
 
-export function MainInfo() {
+export function AboutMe() {
   return (
     <Container>
       <Content>

@@ -13,4 +13,9 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         color: ${theme.colors.textPrimary};
     }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 `

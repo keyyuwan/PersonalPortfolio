@@ -12,14 +12,37 @@ export const Container = styled.div`
     gap: 2rem;
 
     a {
-      font-weight: bold;
-      text-decoration: none;
-      color: ${({ theme }) => theme.colors.cyan};
-
+      position: relative;
       transition: filter 0.2s;
 
       :hover {
         filter: brightness(0.8);
+      }
+    }
+
+    a.active {
+      color: ${({ theme }) => theme.colors.cyan};
+      font-weight: bold;
+
+      &::after {
+        content: '';
+        height: 2px;
+        border-radius: 0 0 3px 3px;
+        width: 100%;
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        background: ${({ theme }) => theme.colors.cyan};
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    nav {
+      gap: 4rem;
+
+      a {
+        font-size: 1.3rem;
       }
     }
   }
