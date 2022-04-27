@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { MainInfo } from '../components/MainInfo'
 import { Projects } from '../components/Projects'
-import { Container } from '../styles/home'
+import { Container } from '../styles/pages/home'
 
 export default function Home() {
   return (

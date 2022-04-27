@@ -1,5 +1,11 @@
 import Head from 'next/head'
-import { Container, Content, Header, MyExperience, DorperInfo } from './styles'
+import {
+  Container,
+  Content,
+  Header,
+  MyExperience,
+  DorperInfo,
+} from '../styles/pages/experience'
 
 export default function DevExperience() {
   return (

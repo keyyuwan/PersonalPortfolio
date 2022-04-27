@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import { FaLinkedin, FaInstagram, FaGithub, FaGoogle } from 'react-icons/fa'
-import { Container } from './styles'
+import { Container } from '../styles/pages/contact'
 
 export default function Contact() {
   return (
