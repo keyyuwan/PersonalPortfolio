@@ -66,6 +66,10 @@ export const OverviewInfo = styled.div`
     font-size: 1.2rem;
     margin-top: 2rem;
 
+    background: -webkit-linear-gradient(45deg, #00bcd4, #00ff95 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     @media (min-width: 768px) {
       font-size: 1.5rem;
     }
@@ -80,37 +84,37 @@ export const StackContainer = styled.div`
   justify-content: center;
   gap: 1rem;
 
-  .tech {
-    width: 100%;
-    height: 140px;
-    padding: 1rem;
-    background: ${({ theme }) => theme.colors.gray[800]};
-    border-radius: 5px;
-
-    display: flex;
-    align-items: center;
-
-    transition: 0.2s;
-
-    &:hover {
-      border: 1.5px solid ${({ theme }) => theme.colors.cyan};
-      transform: scale(1.1);
-      cursor: default;
-    }
-
-    img {
-      width: 80px;
-      height: 80px;
-    }
-
-    strong {
-      font-size: 1.5rem;
-      margin-left: 2rem;
-    }
-  }
-
   @media (min-width: 1024px) {
     flex-direction: row;
     gap: 1.5rem;
+  }
+`
+
+export const Tech = styled.div`
+  width: 100%;
+  height: 140px;
+  padding: 1rem;
+  background: ${({ theme }) => theme.colors.gray[800]};
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+
+  transition: 0.2s;
+
+  &:hover {
+    border: 1.5px solid ${({ theme }) => theme.colors.cyan};
+    transform: scale(1.1);
+    cursor: default;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  strong {
+    font-size: 1.5rem;
+    margin-left: 2rem;
   }
 `

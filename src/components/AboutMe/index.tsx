@@ -5,6 +5,7 @@ import {
   MyInfo,
   OverviewInfo,
   StackContainer,
+  Tech,
 } from './styles'
 
 export function AboutMe() {
@@ -32,18 +33,18 @@ export function AboutMe() {
           </h1>
           <StackContainer>
             {techs.map((tech) => (
-              <div key={tech.id} className="tech">
+              <Tech key={tech.id}>
                 <img src={tech.img_url} alt={tech.name} />
                 <strong>{tech.name}</strong>
-              </div>
+              </Tech>
             ))}
           </StackContainer>
 
           <p className="quote">
             {`<Muito do que vivemos hoje é por causa da tecnologia, ela melhorou
-              e facilitou as formas como fazemos as coisas. Pra mim, desenvolver
+              e facilitou as formas como fazemos as coisas. Pra mim, ser Dev
               é uma forma de achar soluções e resolver problemas da sociedade
-              através da mesma via. />`}
+              através da tecnologia. />`}
           </p>
         </OverviewInfo>
       </Content>
