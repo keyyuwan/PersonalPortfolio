@@ -39,7 +39,7 @@ export default function Experience({ experience }: IExperience) {
             <p key={paragraph}>{paragraph}</p>
           ))}
 
-          <a href="https://dorper.app" target="_blank">
+          <a href="https://dorper.app" target="_blank" rel="noreferrer">
             Acessar Plataforma Web
           </a>
         </div>

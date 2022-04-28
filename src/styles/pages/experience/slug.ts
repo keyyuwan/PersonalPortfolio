@@ -122,8 +122,9 @@ export const Activities = styled.section`
   @media (min-width: 768px) {
     .list {
       display: flex;
+      flex-direction: row-reverse;
       align-items: center;
-      gap: 4rem;
+      justify-content: space-between;
 
       img {
         height: 220px;
