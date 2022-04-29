@@ -18,4 +18,17 @@ export const GlobalStyles = createGlobalStyle`
         text-decoration: none;
         color: inherit;
     }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: ${theme.colors.gray[700]};
+        border-radius: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: ${theme.colors.background};
+    }
 `
