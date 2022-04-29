@@ -15,26 +15,15 @@ export const Container = styled.div`
     justify-content: center;
     gap: 2rem;
 
-    a {
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
+    .email-card {
       color: ${({ theme }) => theme.colors.textPrimary};
       background: ${({ theme }) => theme.colors.gray[800]};
       padding: 1rem;
       border-radius: 8px;
 
-      transition: 0.5s;
-
-      &:hover {
-        border: 1.5px solid ${({ theme }) => theme.colors.cyan};
-
-        transform: scale(1.1);
-      }
-
-      svg {
-        margin-right: 1rem;
-      }
+      display: flex;
+      align-items: center;
+      gap: 1rem;
     }
   }
 `
