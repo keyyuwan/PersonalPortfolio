@@ -12,6 +12,10 @@ export default function Contact() {
         <title>Contato | Key Yu Wan</title>
       </Head>
       <Container>
+        <h1>
+          Sinta-se à vontade para <span>entrar em contato</span>...
+        </h1>
+
         <div className="box">
           <ContactCard
             href="https://github.com/keyyuwan"

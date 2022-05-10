@@ -14,7 +14,7 @@ export function Header() {
           <a>Experiência</a>
         </ActiveLink>
         <ActiveLink activeClassName="active" href="/contact">
-          <a>Contato</a>
+          <a>Social</a>
         </ActiveLink>
       </nav>
     </Container>

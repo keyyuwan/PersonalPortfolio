@@ -9,11 +9,9 @@ export const Anchor = styled.a`
   padding: 1rem;
   border-radius: 8px;
 
-  transition: 0.5s;
+  transition: 0.2s;
 
   &:hover {
-    border: 1.5px solid ${({ theme }) => theme.colors.cyan};
-
     transform: scale(1.1);
   }
 
