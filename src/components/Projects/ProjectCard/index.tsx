@@ -1,4 +1,4 @@
-import { Container } from './styles'
+import { Container, ProjectImage } from './styles'
 
 interface IProject {
   img: string
@@ -14,7 +14,8 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Container>
-      <img src={project.img} alt={project.name} />
+      <ProjectImage image={project.img} />
+      {/* <img src={project.img} alt={project.name} /> */}
 
       <div className="project-info">
         <h2>{project.name}</h2>

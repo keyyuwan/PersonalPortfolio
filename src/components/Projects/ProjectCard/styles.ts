@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+interface ProjectImageProps {
+  image: string
+}
+
 export const Container = styled.div`
   background: ${({ theme }) => theme.colors.gray[800]};
   border-radius: 5px;
@@ -10,14 +14,9 @@ export const Container = styled.div`
     transform: scale(1.05);
   }
 
-  img {
-    height: 200px;
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-  }
-
   .project-info {
     padding: 1rem;
+    width: 100%;
 
     p.description {
       color: ${({ theme }) => theme.colors.gray[500]};
@@ -36,15 +35,25 @@ export const Container = styled.div`
   @media (min-width: 768px) {
     display: flex;
 
-    img {
-      width: 350px;
-      border-radius: 5px 0 0 5px;
-    }
-
     .project-info {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      flex: 1;
     }
+  }
+`
+
+export const ProjectImage = styled.div<ProjectImageProps>`
+  height: 200px;
+  width: 100%;
+  background-image: url(${({ image }) => image});
+  background-position: center top;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+
+  @media (min-width: 768px) {
+    width: 300px;
+    border-radius: 5px 0 0 5px;
   }
 `

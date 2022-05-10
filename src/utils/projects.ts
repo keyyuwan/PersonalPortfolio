@@ -11,46 +11,42 @@ export const projects: ProjectsData[] = [
   {
     id: 1,
     name: 'Podcastr',
-    img: '/podcastr_gif.gif',
+    img: '/Podcastr.svg',
     description:
       'Aplicação em que conseguimos ouvir podcasts e fazer uma leitura prévia sobre cada episódio.',
-    techs: ['ReactJS', 'Next.js', 'SASS', 'TypeScript'],
+    techs: ['ReactJS', 'Next.js', 'SCSS (SASS)', 'TypeScript'],
     githubRepo: 'https://github.com/keyyuwan/Podcastr',
   },
   {
     id: 2,
-    name: 'Manage Your Money',
-    img: '/dtmoney.png',
-    description:
-      'Manage Your Money é um projeto de controle/organização financeira.',
-    techs: ['ReactJS', 'Styled-Components', 'TypeScript', 'MirageJS'],
-    githubRepo: 'https://github.com/keyyuwan/manageyourmoney',
-  },
-  {
-    id: 3,
     name: 'Twitter UI Clone',
-    img: '/tt-clone-gif.gif',
+    img: '/TwitterClone.png',
     description:
       'Tela do perfil do Twitter feito com ReactJS e Styled Components.',
     techs: ['ReactJS', 'Styled Components'],
     githubRepo: 'https://github.com/keyyuwan/ReactJS-Twitter-Clone',
   },
   {
-    id: 4,
-    name: 'Let me ask',
-    img: '/letmeask.png',
+    id: 3,
+    name: 'WidgetForFeedback',
+    img: '/WidgetForFeedback.png',
     description:
-      'Crie salas para visualizar e responder perguntas em tempo real. Você pode entrar em uma para fazer perguntas também.',
+      'WidgetForFeedback é um projeto FullStack em que os usuários podem enviar feedbacks para o dono de algum website/app mobile.',
     techs: [
       'ReactJS',
       'TypeScript',
-      'SCSS (SASS)',
-      'Firebase (Realtime Database)',
+      'Tailwindcss',
+      'React Native',
+      'Expo',
+      'Node.js',
+      'Express',
+      'Prisma',
+      'Jest',
     ],
-    githubRepo: 'https://github.com/keyyuwan/Letmeask',
+    githubRepo: 'https://github.com/keyyuwan/WidgetForFeedback',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Recp',
     img: '/recp.png',
     description:
@@ -64,6 +60,23 @@ export const projects: ProjectsData[] = [
       'React Hook Form',
     ],
     githubRepo: 'https://github.com/keyyuwan/Recp',
+  },
+  {
+    id: 5,
+    name: 'React News',
+    img: '/ReactNews.svg',
+    description:
+      'Página de posts sobre a tecnologia ReactJS com opção de assinatura paga e autenticação social com Github. Contém testes unitários.',
+    techs: [
+      'ReactJS',
+      'TypeScript',
+      'Next.js',
+      'SCSS (SASS)',
+      'FaunaDB',
+      'Jest',
+      'React Testing Library',
+    ],
+    githubRepo: 'https://github.com/keyyuwan/ReactNews',
   },
   {
     id: 6,
