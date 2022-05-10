@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  height: 4rem;
+  height: 5rem;
   border-bottom: 1px solid ${({ theme }) => theme.colors.gray[800]};
 
   display: flex;
@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 
   nav {
-    height: 4rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     gap: 1.5rem;

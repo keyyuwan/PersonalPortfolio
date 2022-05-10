@@ -11,7 +11,13 @@ export const Container = styled.div`
   transition: 0.2s;
 
   &:hover {
-    transform: scale(1.05);
+    transform: translateX(30px);
+
+    .project-info {
+      h2 {
+        color: ${({ theme }) => theme.colors.cyan};
+      }
+    }
   }
 
   .project-info {

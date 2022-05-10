@@ -1,9 +1,19 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+
+const FadeAnimation = keyframes`
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+`
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  animation: ${FadeAnimation} 1s;
 `
 
 export const Content = styled.div`
@@ -70,6 +80,13 @@ export const OverviewInfo = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+    transition: 0.4s;
+    cursor: default;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
     @media (min-width: 768px) {
       font-size: 1.5rem;
     }
@@ -90,6 +107,14 @@ export const StackContainer = styled.div`
   }
 `
 
+const RotateAnimation = keyframes`
+  from {
+    transform: rotate(0);
+  } to {
+    transform: rotate(360deg);
+  }
+`
+
 export const Tech = styled.div`
   width: 100%;
   height: 140px;
@@ -106,6 +131,10 @@ export const Tech = styled.div`
     border: 1.5px solid ${({ theme }) => theme.colors.cyan};
     transform: scale(1.1);
     cursor: default;
+
+    img {
+      animation: ${RotateAnimation} 1s;
+    }
   }
 
   img {
