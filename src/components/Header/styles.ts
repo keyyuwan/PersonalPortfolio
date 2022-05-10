@@ -4,16 +4,25 @@ export const Container = styled.div`
   height: 4rem;
   border-bottom: 1px solid ${({ theme }) => theme.colors.gray[800]};
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
   nav {
     height: 4rem;
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
 
     a {
       position: relative;
       transition: filter 0.2s;
+      line-height: 5rem;
 
       :hover {
         filter: brightness(0.8);
@@ -44,6 +53,14 @@ export const Container = styled.div`
       a {
         font-size: 1.3rem;
       }
+    }
+  }
+
+  @media (max-width: 767px) {
+    justify-content: center;
+
+    h1 {
+      display: none;
     }
   }
 `

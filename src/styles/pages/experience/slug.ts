@@ -5,7 +5,7 @@ export const Header = styled.header`
 
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 
   .icon-container {
     cursor: pointer;

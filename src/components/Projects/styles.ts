@@ -10,19 +10,6 @@ export const Container = styled.div`
     text-align: center;
     font-size: 2.5rem;
     color: ${({ theme }) => theme.colors.cyan};
-    position: relative;
-
-    &::after {
-      content: '';
-      height: 4px;
-      border-radius: 0 0 3px 3px;
-      width: 80px;
-      position: absolute;
-      bottom: 1px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: ${({ theme }) => theme.colors.cyan};
-    }
   }
 `
 

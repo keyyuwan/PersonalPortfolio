@@ -4,9 +4,11 @@ import { Container } from './styles'
 export function Header() {
   return (
     <Container>
+      <h1>@keyyuwan</h1>
+
       <nav>
         <ActiveLink activeClassName="active" href="/">
-          <a>Key</a>
+          <a>Sobre</a>
         </ActiveLink>
         <ActiveLink activeClassName="active" href="/experience">
           <a>Experiência</a>

@@ -23,7 +23,7 @@ export default function Experience({ experience }: IExperience) {
     <Container>
       <Header>
         <div className="icon-container" onClick={back}>
-          <FaArrowLeft />
+          <FaArrowLeft size={24} />
         </div>
         <h1>{experience.name}</h1>
       </Header>
