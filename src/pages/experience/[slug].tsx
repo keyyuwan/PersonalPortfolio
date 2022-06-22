@@ -4,7 +4,8 @@ import { FaArrowLeft } from 'react-icons/fa'
 
 import { workExperience, IWorkExperience } from '../../utils/workExperience'
 
-import { Container } from '../../styles/Container'
+import { Container } from '../../components/Container'
+
 import {
   Header,
   About,

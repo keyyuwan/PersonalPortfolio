@@ -9,7 +9,6 @@ export const Greetings = styled.h1`
   }
 
   @media (min-width: 768px) {
-    text-align: left;
     margin-top: 2rem;
 
     h1 {
@@ -24,6 +23,10 @@ export const KeyWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
+
+  @media (min-width: 1024px) {
+    justify-content: center;
+  }
 `
 
 export const Avatar = styled.img`
@@ -56,7 +59,12 @@ export const InfoAboutMe = styled.div`
   }
 `
 
-export const DownloadCVButton = styled.button`
+export const DownloadButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+export const DownloadCVButton = styled.a`
   width: 100%;
   margin-top: 1rem;
   padding: 0.75rem 1rem;
@@ -75,6 +83,7 @@ export const DownloadCVButton = styled.button`
   font-size: 1.2rem;
   font-weight: bold;
 
+  cursor: pointer;
   transition: 0.2s;
 
   &:hover {
@@ -133,6 +142,7 @@ export const Description = styled.p`
   font-size: 1.25rem;
   font-weight: normal;
   margin-top: 2rem;
+  text-align: center;
 
   background: -webkit-linear-gradient(45deg, #00bcd4, #00ff95 80%);
   -webkit-background-clip: text;
@@ -140,6 +150,5 @@ export const Description = styled.p`
 
   @media (min-width: 768px) {
     font-size: 1.5rem;
-    max-width: 800px;
   }
 `

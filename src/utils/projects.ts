@@ -47,19 +47,19 @@ export const projects: ProjectsData[] = [
   },
   {
     id: 4,
-    name: 'Recp',
-    img: '/recp.png',
-    description:
-      'Explore receitas do mundo e registre suas próprias. Contém autenticação social com Google.',
+    name: 'cube.store',
+    img: '/capa-cubestore.png',
+    description: 'E-commerce de cubo mágico.',
     techs: [
       'ReactJS',
       'TypeScript',
       'Next.js',
       'Next Auth',
-      'Styled Components',
-      'React Hook Form',
+      'Chakra UI',
+      'Stripe',
+      'Axios',
     ],
-    githubRepo: 'https://github.com/keyyuwan/Recp',
+    githubRepo: 'https://github.com/keyyuwan/cubestore',
   },
   {
     id: 5,
@@ -80,18 +80,18 @@ export const projects: ProjectsData[] = [
   },
   {
     id: 6,
-    name: 'AuthNext',
-    img: '/authnext.jpg',
+    name: 'Recp',
+    img: '/recp.png',
     description:
-      'Projeto de autenticação e autorização com controle de rotas pelo server-side.',
+      'Explore receitas do mundo e registre suas próprias. Contém autenticação social com Google.',
     techs: [
       'ReactJS',
       'TypeScript',
       'Next.js',
-      'SCSS (SASS)',
-      'Axios',
-      'ApexCharts',
+      'Next Auth',
+      'Styled Components',
+      'React Hook Form',
     ],
-    githubRepo: 'https://github.com/keyyuwan/AuthNext',
+    githubRepo: 'https://github.com/keyyuwan/Recp',
   },
 ]

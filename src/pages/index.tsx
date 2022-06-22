@@ -11,6 +11,7 @@ import {
   KeyWrapper,
   Avatar,
   InfoAboutMe,
+  DownloadButtonContainer,
   DownloadCVButton,
   Description,
   StackContainer,
@@ -39,10 +40,12 @@ export default function Home() {
           </InfoAboutMe>
         </KeyWrapper>
 
-        <DownloadCVButton>
-          <FaDownload />
-          Download CV
-        </DownloadCVButton>
+        <DownloadButtonContainer>
+          <DownloadCVButton href="/CV-KEY.pdf" download>
+            <FaDownload />
+            Download CV
+          </DownloadCVButton>
+        </DownloadButtonContainer>
 
         <StackContainer>
           {techs.map((tech) => (
