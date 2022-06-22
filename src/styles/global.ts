@@ -14,6 +14,10 @@ export const GlobalStyles = createGlobalStyle`
         color: ${theme.colors.textPrimary};
     }
 
+    button {
+        cursor: pointer;
+    }
+
     a {
         text-decoration: none;
         color: inherit;

@@ -17,8 +17,8 @@ export const techs: TechsData[] = [
   },
   {
     id: 3,
-    name: 'JavaScript',
-    img_url: 'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
+    name: 'React Native',
+    img_url: '/techs/react-native.svg',
   },
   {
     id: 4,

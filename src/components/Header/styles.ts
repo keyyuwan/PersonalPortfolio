@@ -36,7 +36,7 @@ export const Container = styled.div`
       &::after {
         content: '';
         height: 2px;
-        border-radius: 0 0 3px 3px;
+        border-radius: 3px 3px 0 0;
         width: 100%;
         position: absolute;
         bottom: 1px;

@@ -4,7 +4,8 @@ import { FaArrowLeft } from 'react-icons/fa'
 
 import { workExperience, IWorkExperience } from '../../utils/workExperience'
 
-import { Container } from '../../styles/Container'
+import { Container } from '../../components/Container'
+
 import {
   Header,
   About,
@@ -40,7 +41,7 @@ export default function Experience({ experience }: IExperience) {
           ))}
 
           <a href="https://dorper.app" target="_blank" rel="noreferrer">
-            Acessar Plataforma Web
+            Plataforma Web
           </a>
         </div>
       </About>

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { ExperienceCard } from '../../components/Experience/ExperienceCard'
+import { Container } from '../../components/Container'
 
-import { Container } from '../../styles/Container'
 import { Title, ExperienceCardsContainer } from '../../styles/pages/experience'
 
 const DORPER_SLUG = 'dorper-brasil-tecnologia-ltda'
