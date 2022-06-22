@@ -1,13 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  max-width: 1120px;
-  margin: 3rem auto 0;
-  padding: 0 2rem;
+  margin-top: 3rem;
   padding-bottom: 2rem;
 
   h1 {
-    text-align: center;
     font-size: 2.5rem;
     color: ${({ theme }) => theme.colors.cyan};
   }
