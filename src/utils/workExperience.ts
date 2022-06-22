@@ -22,7 +22,7 @@ export const workExperience: IWorkExperience[] = [
       'Trabalho em cima da metodologia ágil SCRUM',
     ],
     description: [
-      'Uma plataforma que possibilita compartilhar seu tempo, conhecimentos, habilidades e experiências através de videochamada de forma remunerada.',
+      'Dorper é um Marketplace de serviços remotos que permite a comercialização desses serviços por meio de sessões de vídeo chamada de forma remunerada.',
       'O propósito é conectar pessoas para a disseminação de conhecimento e geração de oportunidades.',
     ],
   },

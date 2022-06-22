@@ -40,7 +40,7 @@ export default function Experience({ experience }: IExperience) {
           ))}
 
           <a href="https://dorper.app" target="_blank" rel="noreferrer">
-            Acessar Plataforma Web
+            Plataforma Web
           </a>
         </div>
       </About>

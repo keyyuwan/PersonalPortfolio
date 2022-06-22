@@ -50,12 +50,17 @@ export const About = styled.section`
     a {
       display: inline-block;
       margin-top: 1rem;
-      font-size: 1.2rem;
-      text-decoration: underline;
-      color: ${({ theme }) => theme.colors.cyan};
+      padding: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+
+      border: 1.5px solid ${({ theme }) => theme.colors.cyan};
+      color: ${({ theme }) => theme.colors.textPrimary};
+
+      transition: 0.2s;
 
       &:hover {
-        opacity: 0.8;
+        background-color: ${({ theme }) => theme.colors.cyan};
       }
     }
   }
